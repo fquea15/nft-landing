@@ -21,6 +21,8 @@ export default function App() {
       <Free />
       <Clients />
       <SuperRare />
+      <Release />
+      <Like />
       {/* <ScrollToTop />
       <Navbar />
       <Home />
