@@ -16,14 +16,7 @@ import "./scss/index.scss"
 export default function App() {
   return (
     <div className="app-container">
-      <Navbar />
-      <Home />
-      <Free />
-      <Clients />
-      <SuperRare />
-      <Release />
-      <Like />
-      {/* <ScrollToTop />
+      <ScrollToTop />
       <Navbar />
       <Home />
       <Free />
@@ -32,7 +25,7 @@ export default function App() {
       <Release />
       <Like />
       <Signup />
-      <Footer /> */}
+      <Footer />
     </div>
   )
 }

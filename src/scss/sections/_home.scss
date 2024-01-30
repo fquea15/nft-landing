@@ -41,6 +41,7 @@
                 background-clip: content-box, border-box;
                 box-shadow: 2px 1000px 1px var(--background) inset;
                 transition: 0.5s ease-in-out;
+                cursor: pointer;
 
                 &:hover {
                     box-shadow: none;
