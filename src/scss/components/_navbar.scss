@@ -13,6 +13,16 @@ nav {
         .toggle-container {
             display: none;
         }
+
+        .mode {
+            .dark {
+                color: black;
+            }
+
+            .light {
+                color: yellow;
+            }
+        }
     }
 
     .links-container {
@@ -22,6 +32,14 @@ nav {
             gap: 4rem;
 
             li {
+                .dark {
+                    color: black;
+                }
+
+                .light {
+                    color: yellow;
+                }
+
                 a {
                     color: var(--accent-color1);
                     text-decoration: none;
@@ -31,6 +49,18 @@ nav {
                     a {
                         color: var(--pink);
                     }
+                }
+            }
+        }
+    }
+}
+
+[data-theme="light"] {
+    nav {
+        .brand-container {
+            .brand {
+                img {
+                    filter: brightness(0);
                 }
             }
         }
