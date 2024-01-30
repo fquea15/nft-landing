@@ -18,6 +18,7 @@ export default function App() {
     <div className="app-container">
       <Navbar />
       <Home />
+      <Free />
       {/* <ScrollToTop />
       <Navbar />
       <Home />
